@@ -1,0 +1,23 @@
+﻿*{margin: 0; padding: 0; color:inherit;}
+
+html{font-family: "Jaldi", "Trebuchet MS", Helvetica, sans-serif; color: #fff; background-color: #222;}
+body{position: relative; min-height: 100vh; overflow-x: hidden;}
+
+.bluText{color: #00ccff;}
+
+header{padding: 15px 0;}
+
+main{padding-bottom: 50px;}
+
+footer{position: absolute; left: 0; bottom: 0; width: 100vw; padding: 15px 0; color: #fff; text-align: center; background-color: #222;}
+	footer .flex-container a{padding: 0 10px; text-indent: 0;}
+		footer .flex-container a:hover{color: #00ccff;}
+
+@media only screen and (max-width: 800px){}
+
+@media only screen and (max-width: 1024px){}
+
+@media only screen and (orientation: portrait){
+	header .home-button{display: block; padding: 0 0 15px 0; text-align: center;}
+	header nav{width: 100%; text-align: center;}
+}
