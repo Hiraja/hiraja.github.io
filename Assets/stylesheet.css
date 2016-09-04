@@ -1,13 +1,14 @@
-﻿*{margin: 0; padding: 0; color:inherit;}
+﻿*{margin: 0; padding: 0; color:inherit; text-decoration: none;}
 
-html{font-family: "Jaldi", "Trebuchet MS", Helvetica, sans-serif; color: #fff; background-color: #222;}
+html{font-family: Geneva, sans-serif; color: #000;}
 body{position: relative; min-height: 100vh; overflow-x: hidden;}
 
 .bluText{color: #00ccff;}
 
-header{padding: 15px 0;}
+header{padding: 50px 10% 0 10%;}
+	header a{font-size: 250%; font-weight: bold;}
 
-main{padding-bottom: 50px;}
+main{padding: 50px 10%;}
 
 footer{position: absolute; left: 0; bottom: 0; width: 100vw; padding: 15px 0; color: #fff; text-align: center; background-color: #222;}
 	footer .flex-container a{padding: 0 10px; text-indent: 0;}
